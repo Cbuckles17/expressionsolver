@@ -15,10 +15,10 @@ all: build
 build: windows linux darwin
 
 run-windows: windows
-	$(RELEASE_DIR)//$(WINDOWS)
+	$(RELEASE_DIR)/$(WINDOWS)
 
 run-linux: linux
-	$(RELEASE_DIR)//$(LINUX)
+	$(RELEASE_DIR)/$(LINUX)
 
 run-darwin: darwin
 	$(RELEASE_DIR)/$(DARWIN)
